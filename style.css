@@ -1,0 +1,118 @@
+* {
+    font-family: montserrat;
+}
+
+body {
+    background: #f1fbff;
+}
+
+
+.section-padding {
+    padding: 100px 0;
+}
+
+.carousel-item {
+    height: 100vh;
+    min-height: 300px;
+}
+
+.carousel-caption {
+    bottom: 200px;
+    z-index: 2;
+
+}
+
+.carousel-caption h5 {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 40px;
+    margin-top: 25px;
+
+}
+
+.carousel-caption p {
+    width: 60%;
+    color: rgb(248, 248, 248);
+    margin: auto;
+    font-size:18px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif, Geneva, Tahoma, sans-serif;
+    line-height: 1.9;
+
+}
+
+.carousel-inner::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+}
+.navbar .getstarted {
+	background: #106eea;
+	margin-left: 30px;
+	border-radius: 4px;
+	font-weight: 400;
+	color: #fff;
+	text-decoration: none;
+	padding: .5rem 1rem;
+	line-height: 2.3;}
+
+.navbar-nav a {
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+
+}
+
+.navbar-light .navbar-brand {
+    color: #000;
+    font-size: 28px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.navbar-light .navbar-brand:focus,
+.navbar-light .navbar-brand:hover{
+    color: #000;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: #000;
+}
+.w-100{
+    height: 100vh;
+}
+.navbar-toggler {
+	padding: 1px 5px;
+	font-size: 18px;
+	line-height: 0.3;
+	background: #fff;
+}
+
+@media only screen and (max-width: 991px) {
+
+    .navbar-nav {
+		text-align: center;
+	}
+    .carousel-caption {
+		bottom: 130px;
+	}
+    .carousel-caption a {
+        padding: 10px 15px;
+
+    }
+    .carousel-caption h5 {
+        font-size: 30px;}
+
+    .carousel-caption p {
+        width: 100%;
+        font-size: 17px;
+        line-height: 1.6;
+    }
+
+
+}
